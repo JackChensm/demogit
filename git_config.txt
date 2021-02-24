@@ -9,5 +9,5 @@
 
 
 git config --list
-git config gloabl alias.ci=commit
-git config global credential.helper wincred  可以保存https协议每次输入密码的麻烦
+git config --gloabl alias.ci=commit
+git config --global credential.helper wincred  可以保存https协议每次输入密码的麻烦
