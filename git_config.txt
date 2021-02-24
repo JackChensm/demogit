@@ -1,0 +1,13 @@
+[user]
+        email = keke@qq.com
+        name = keyongteacher
+[alias]
+        ci = commit
+        st = status
+        ad = add .
+        hi = log --pretty=format:'%h %ad | %s%d' --graph --date=short
+
+
+git config --list
+git config gloabl alias.ci=commit
+git config global credential.helper wincred  可以保存https协议每次输入密码的麻烦
