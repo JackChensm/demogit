@@ -35,3 +35,8 @@ git clean -n
 清除文件
 git clean -f
 git clean -x
+会清理gitignore的内容
+
+git status -sb short 简短的列出变更
+
+
