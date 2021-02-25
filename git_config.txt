@@ -19,3 +19,19 @@ ssh-keygen -t rsa -C "3375630896@qq.com"
 cat ~/.ssh/id_rsa.pub
 
 profile-setting-ssh and gpg keys
+
+列出常用命令
+git
+
+列出所有子命令
+git help -a
+
+列出文件修改历史记录
+git blame filename
+git blame -L 0,100 filename
+
+列出要清除的文件
+git clean -n 
+清除文件
+git clean -f
+git clean -x
