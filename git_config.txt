@@ -11,3 +11,11 @@
 git config --list
 git config --gloabl alias.ci=commit
 git config --global credential.helper wincred  可以保存https协议每次输入密码的麻烦
+
+ssh协议生成密钥命令
+ssh-keygen -t rsa -C "3375630896@qq.com"
+
+把公钥放到github网站上
+cat ~/.ssh/id_rsa.pub
+
+profile-setting-ssh and gpg keys
