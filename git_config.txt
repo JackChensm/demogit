@@ -43,4 +43,5 @@ git rm 删除文件
 git mv 重命名或移动文件
 git reset hash | head 撤回到某个commit  
 
-
+git show HEAD 显示当前提交的变更 
+git diff  
