@@ -39,4 +39,8 @@ git clean -x
 
 git status -sb short 简短的列出变更
 
+git rm 删除文件
+git mv 重命名或移动文件
+git reset hash | head 撤回到某个commit  
+
 
