@@ -44,4 +44,18 @@ git mv 重命名或移动文件
 git reset hash | head 撤回到某个commit  
 
 git show HEAD 显示当前提交的变更 
-git diff  
+git diff 
+
+git commit 规范
+type(scope):fix xxx 
+
+body 
+
+footer 
+
+示例
+docs(file):fix file
+
+close #1  关闭bug  
+
+
