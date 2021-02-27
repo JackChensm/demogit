@@ -9,8 +9,9 @@
         hi = log --pretty=format:'%h %ad | %s%d' --graph --date=short
 
 ### git config --list
-### git config --gloabl alias.ci=commit
-### git config --global credential.helper wincred  可以保存https协议每次输入密码的麻烦
+    git config --list
+    git config --gloabl alias.ci=commit
+    git config --global credential.helper wincred  可以保存https协议每次输入密码的麻烦
 
 ### ssh协议生成密钥命令
     ssh-keygen -t rsa -C "3375630896@qq.com"
@@ -62,7 +63,7 @@
     git hi filename (git config --global alias.hi=log 这个命令) 可以看到这个文件的提交历史记录
 
 ### git diff  
-[diff](./log/diff.png)
+![diff](./log/diff.png)
 
 
 
@@ -78,7 +79,7 @@
     git diff workdirectory index/stage     当前工作区和暂存区
     git diff HEAD^ HEAD^^ commit1 commit2  当前commit1,commit2的区别
 ### git tag 
-    git tag tagName commit 
+    git tag tagName commit 在某个提交上面打标记
     
     在某个提交上面commit
     可以
