@@ -88,11 +88,17 @@
     git tag  
 
 ### reset 回撤操作
-git add  ---> git checkout --files
-git commit ---> git reset -- files 
+    git add  ---> git checkout --files
+    git commit ---> git reset -- files 
 
 ![reset](./log/reset.png)  
 
+    git reset HEAD  回撤  暂存区内容  到工作目录
+    git reset HEAD^ -- soft 回撤提交到  暂存区
+
+    git reset HEAD^ --hard 回撤提交
+
+    git push -f 强制提交撤回的记录
 
 
 
