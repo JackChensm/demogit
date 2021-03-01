@@ -87,6 +87,12 @@
     git diff
     git tag  
 
+### reset 回撤操作
+git add  ---> git checkout --files
+git commit ---> git reset -- files 
+
+![reset](./log/reset.png)  
+
 
 
 
