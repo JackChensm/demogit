@@ -99,6 +99,23 @@
     git reset HEAD^ --hard 回撤提交
 
     git push -f 强制提交撤回的记录
+ 
+### git tag  
+    git tag 列出所有标签
+
+    git tag tagName commit  给某个提交打标签
+
+    git tag -d tagName  删除某个提交的标签
+
+    git tag tagName HEAD~4  给第4个commit打标签
+
+    git push origin --tags   向远程仓库推送所有打的标签
+
+    git push origin tagName  推送某个标签
+
+    git tag tagName -m "message"
+
+    git push origin :refs/tags/v0.0 删除远程仓库的某个标签
 
 
 
