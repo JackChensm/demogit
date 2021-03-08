@@ -119,3 +119,13 @@
 
 
 
+### git branch   
+    git branch xxx 创建分支
+
+    git branch -v 查看所有分支，且显示每个分支目前的最新提交commit
+
+    git checkout xx 切换到xx分支上
+
+    git merge xx 在当前分支上合并xx分支上的提交 
+
+    git branch -d xx 删除xx分支
