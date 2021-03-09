@@ -129,3 +129,48 @@
     git merge xx 在当前分支上合并xx分支上的提交 
 
     git branch -d xx 删除xx分支
+    
+    ----------------------------------
+    git branch xxx 创建分支
+    
+    git branch -v 查看所有分支，且显示每个分支目前的最新提交commit
+    
+    git checkout xx 切换到xx分支上
+    
+    git merge xx 在当前分支上合并xx分支上的提交 
+    
+    git branch -d xx 删除xx分支
+    
+    git branch -r 列出远程分支
+    
+    git checkout -b xx 创建分支且切换分支
+    
+    git branch -m/M old_branch new_branch 修改分支名称
+    git branch -d/D branch 删除分支
+    
+    git branch --merged
+    git branch --no-merged 查看已经合并的分支
+    
+    git branch -r --mereged 列出远程合并的分支
+    
+    git checkout -t origin/foo 取出远程foo分支
+    
+    git push origin <space>:<remote branch> 删除远程分支
+    git fetch -p
+    
+    git merge branch_name 合并分支
+    
+    git merge --no-ff 合并分支，拒绝fast forward ，产生合并commit
+    
+    git stash 保存进度
+    
+    git stash pop 弹出进度
+    
+    git stash list 查看stash 列表
+    
+    git stash clear 删除stash 列表
+    
+    
+    
+
+    
