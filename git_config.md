@@ -173,6 +173,14 @@
     
     
 ### 集中式工作流  
-    需要邀请对方加入协作，大家撸的代码再推送再远程仓库里    
+    需要邀请对方加入协作，大家撸的代码再推送再远程仓库里     
+    
+    1 冲突时，解决冲突的文件即可
+    2 git pull --rebase    
+    解决冲突文件，git rebase --continue   
+    git add .
+    git rebase --continue   
+    
+     
 
     
