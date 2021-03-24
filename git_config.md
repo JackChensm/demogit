@@ -188,4 +188,10 @@
     开发时，开分支即可，再git push 远程地址 新分支  
     功能完成后，可以发起Pull request 请求合并  
 
+### forking 工作流   
+    1 github fork 别人的项目  
+    2 本地clone fork 好的项目  
+    3 完成基本的代码修改,push 到自己fork的项目  
+    4 在github 发起pr 请求合并  
+    5 自己要同步fork原仓库，记得git remote add upstream 原仓库  
 
